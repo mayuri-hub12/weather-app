@@ -17,7 +17,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
+       `https://api.weatherstack.com/current?access_key=${API_KEY}&query=${city}`
 
       );
 
