@@ -17,7 +17,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `http://api.weatherstack.com/current?access_key=${API_KEY}&query=${city}`
+        `https://api.weatherstack.com/current?access_key=${API_KEY}&query=${city}`
       );
 
       console.log("Fetch completed, raw response:", response);
